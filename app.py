@@ -118,8 +118,7 @@ api.add_resource(Designs, '/designs')
 
 class CategorizeDesign(Resource):
     
-    def get(self, id):
-        
+    def get(self, id):   
         design_by_id=Design.query.filter(Design.id==id).first()
         response_dict=design_by_id.to_dict()
         response=make_response(response_dict, 200)
