@@ -116,6 +116,7 @@ class Designs(Resource):
         return response
 api.add_resource(Designs, '/designs')
 
+
 class CategorizeDesign(Resource):
     
     def get(self, id):   
