@@ -1,0 +1,6 @@
+-i https://pypi.org/simple
+gunicorn==23.0.0; python_version >= '3.7'
+packaging==24.1; python_version >= '3.8'
+psycopg2-binary==2.9.10; python_version >= '3.8'
+
+
